@@ -67,7 +67,7 @@ def step_4_handler(message):
 def step_5_handler(message):
     # Этот шаг использует ИНЛАЙН-кнопку
     markup = types.InlineKeyboardMarkup()
-    button = types.InlineKeyboardButton("ПРОВЕРИТЬ ПОДПИСКУ И ПОЛУЧИТЬ МНЕ", callback_data='check_subscription')
+    button = types.InlineKeyboardButton("ПРОВЕРИТЬ ПОДПИСКУ И ПОЛУЧИТЬ ПРЕМ", callback_data='check_subscription')
     markup.add(button)
     # Отправляем сообщение со списком каналов и инлайн-кнопкой
     # И одновременно УДАЛЯЕМ клавиатуру с кнопками-ответами
